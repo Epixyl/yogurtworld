@@ -23,6 +23,10 @@ body {
 .img-hover:hover {
     opacity: 0.8;
 }
+.navbar-inverse {
+  background-color: #D15043;
+  border-color: #D15043;
+}
 
 /* Home Page Carousel */
 
