@@ -1,14 +1,23 @@
 .page-header {
-  padding-bottom: 9px;
+  padding-bottom: 10px;
+  padding-top:20px;
   text-align: center;
   margin: 40px 0 20px;
   border-bottom: 2px solid #eee;
 }
 .row h3{
-  border-style: dashed;
+
   text-align: center;
 }
 .row p{
-  border-style: solid;
+  
   text-align: center;
+}
+.col-md-4.img-portfolio{
+  border-style: dashed;
+}
+@media(max-width: @screen-md){
+  .img-responsive.img-hover{
+    float:left;
+  }
 }
