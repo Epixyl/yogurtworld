@@ -4,3 +4,11 @@
   margin: 40px 0 20px;
   border-bottom: 2px solid #eee;
 }
+.row h3{
+  border-style: dashed;
+  text-align: center;
+}
+.row p{
+  border-style: solid;
+  text-align: center;
+}
