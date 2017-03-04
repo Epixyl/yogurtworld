@@ -51,7 +51,15 @@ h1,h2,h3,h5,h6 {
 .navbar-inverse .navbar-nav a:hover {
   color: green;
 }
-
+.navbar img{
+	height:100%;
+}
+.navbar-brand{
+	padding:2px;
+}
+.navbar b{
+	color:#EFC955;
+}
 /* Home Page Carousel */
 
 header.carousel {
@@ -129,7 +137,9 @@ th, td {
 	font-size:20px;
 	padding:0px;
 }
-
+.footer img{
+	height:100%;
+}
 .row-button {
   margin-bottom: 20px;
   padding-top: 0px;
