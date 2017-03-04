@@ -17,3 +17,7 @@ table{
 .graybg{
 	background-color:lightgray;
 }
+.footer{
+	color:white;
+	background-color:#D15043;
+}
