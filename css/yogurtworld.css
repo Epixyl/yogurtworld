@@ -1,10 +1,4 @@
-/*!
- * Start Bootstrap - Modern Business (http://startbootstrap.com/)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
-
-/* Global Styles */
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Sacramento');
 
 html,
 body {
@@ -13,6 +7,22 @@ body {
 
 body {
     padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+.page-header1 {
+  font-family: "Sacramento", Helvetica, Arial, sans-serif;
+  padding-bottom: 9px;
+  margin: 40px 0 20px 50px;
+}
+
+h1,h2,h3,h5,h6 {
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
 }
 
 .img-portfolio {
@@ -23,15 +33,28 @@ body {
 .img-hover:hover {
     opacity: 0.8;
 }
+
+.navbar-inverse .navbar-brand {
+  color: white;
+}
+
 .navbar-inverse {
   background-color: #D15043;
   border-color: #D15043;
 }
 
+.navbar-inverse .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-inverse .navbar-nav a:hover {
+  color: green;
+}
+
 /* Home Page Carousel */
 
 header.carousel {
-    height: 75%;
+    height: 70%;
 }
 
 header.carousel .item,
@@ -74,8 +97,32 @@ header.carousel .fill {
 
 /* Footer Styles */
 
+.foot {
+  background-color: #D15043;
+  width: 100%;
+}
+
+.foot .footer-copyright{
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.foot .footer-text {
+  color: white;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.foot .footer-text > p {
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 footer {
-    margin: 50px 0;
+    margin-bottom: 0px;
 }
 
 /* Responsive Styles */
