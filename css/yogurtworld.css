@@ -110,7 +110,7 @@ th, td {
 /* Footer Styles */
 .footer{
 	margin-top:10px;
-	padding-bottom:20px;
+	padding-bottom:15px;
 	color:white;
 	background-color:#D15043;
 }
@@ -143,6 +143,11 @@ th, td {
   margin-top: 0px;
   width: 300px;
   margin: auto;
+}
+.footer .copyright {
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
 }
 
 /* Responsive Styles */
