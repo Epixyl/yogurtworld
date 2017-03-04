@@ -16,6 +16,7 @@ body {
 
 .page-header1 {
   font-family: "Sacramento", Helvetica, Arial, sans-serif;
+  font-size: 32px;
   padding-bottom: 9px;
   margin: 40px 0 20px 50px;
 }
@@ -97,9 +98,11 @@ header.carousel .fill {
 
 /* Footer Styles */
 
-.foot {
+div.foot {
   background-color: #D15043;
   width: 100%;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 .foot .footer-copyright{
@@ -123,6 +126,21 @@ header.carousel .fill {
 
 footer {
     margin-bottom: 0px;
+    background-color: #D15043;
+}
+
+th, td {
+    padding-right: 25px;
+    color: white;
+    text-align: left;
+}
+
+.row-button {
+  margin-bottom: 20px;
+  padding-top: 0px;
+  margin-top: 0px;
+  width: 300px;
+  margin: auto;
 }
 
 /* Responsive Styles */
