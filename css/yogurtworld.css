@@ -52,6 +52,7 @@ h1,h2,h3,h5,h6 {
   color: green;
 }
 .navbar img{
+	padding-left:10px;
 	height:100%;
 }
 .navbar-brand{

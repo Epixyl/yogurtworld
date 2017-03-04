@@ -52,6 +52,7 @@ h1,h2,h3,h5,h6 {
   color: green;
 }
 .navbar img{
+	padding-left:5px;
 	height:100%;
 }
 .navbar-brand{
@@ -137,7 +138,9 @@ th, td {
 	font-size:20px;
 	padding:0px;
 }
-
+.footer img{
+	height:100%;
+}
 .row-button {
   margin-bottom: 20px;
   padding-top: 0px;
