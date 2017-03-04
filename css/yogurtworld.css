@@ -55,9 +55,7 @@ h1,h2,h3,h5,h6 {
 	padding-left:10px;
 	height:100%;
 }
-.navbar-brand{
-	padding:2px;
-}
+
 .navbar b{
 	color:#EFC955;
 }
@@ -112,7 +110,7 @@ th, td {
 /* Footer Styles */
 .footer{
 	margin-top:10px;
-	padding-bottom:10px;
+	padding-bottom:20px;
 	color:white;
 	background-color:#D15043;
 }
@@ -125,7 +123,7 @@ th, td {
 	font-weight:600;
 }
 .footer p{
-	font-size:20px;
+	font-size:18px;
 }
 .footer table{
 	width:100%;
@@ -133,7 +131,7 @@ th, td {
 	margin:0px;
 }
 .footer th, .footer td{
-	font-size:20px;
+	font-size:18px;
 	padding:0px;
 }
 .footer img{
