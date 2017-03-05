@@ -45,7 +45,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"><img src="images/logo.png"></img></a>
+                <a class="navbar-brand" href="index.html">Yogurt World</a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
@@ -74,10 +74,9 @@
 			<h1 class="page-header">
 				Upcoming Fundraisers
 			</h1>
-		<img class="img-responsive" src="images/jason.jpg">
 		</div>
 	</div>
-	<div class="graybg">
+	<div class="imgbg">
 		<div class="row">
 				<center>
 				<table>
@@ -107,51 +106,56 @@
 	<div class="container">
 	<div class="col-sm-4 centered">
 		<img class="img-responsive" src="images/jason.jpg">
-		<h2>Step 1: </h2>Do something
+		<h2>Step 1: </h2>
+		<p>Contact us at (858) 452-8889 to schedule a meeting.</p>
 	</div>
 	<div class="col-sm-4 centered">
 		<img class="img-responsive" src="images/jason.jpg">
-		<h2>Step 2: </h2>Do something
+		<h2>Step 2: </h2>
+		<p>Come in store to arrange the details for the fundraiser.</p>
 	</div>
 	<div class="col-sm-4 centered">
 		<img class="img-responsive" src="images/jason.jpg">
-		<h2>Step 3: </h2>Do something
+		<h2>Step 3: </h2>
+		<p>Receive a percentage of the proceeds during the fundraiser period!</p>
 	</div>
 	</div>
-	<div class="footer">
-        <!-- Footer -->
-        
-			
-            <div class="container">
-                <div class="col-md-4">
-                    <h2><a href="index.html">Yogurt World</a></h2>
-					<p>
-					9500 Gilman Drive<br/>
-					La Jolla, CA 92093<br/>
-					(858) 452-8889
-					</p>
-                </div>
-                <div class="col-md-8">
-                    <h2>Store Hours</h2>
-					
-					<table>
-						<tr>
-							<td>Monday-Friday</td>
-							<td style="text-align:right;">10:30AM - 10:00PM</td>
-						</tr>
-						<tr>
-							<td>Saturday</td>
-							<td style="text-align:right;">11:00AM - 5:00PM</td>
-						</tr>
-						<tr>
-							<td>Sunday</td>
-							<td style="text-align:right;">11:00AM - 5:00PM</td>
-						</tr>
-					</table>
-				</div>
+    <!-- Footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="col-md-4">
+            <h2><a href="index.html">Yogurt World</a></h2>
+  					<p>Located at the Student Services Center across from the Loft<br>
+              9500 Gilman Drive<br>
+              La Jolla, CA 92093<br>
+              (858) 452-8889
+  					</p>
             </div>
-
-    </div>
+            <div class="col-md-5">
+              <h2>Store Hours</h2>
+  					<table>
+  						<tr>
+  							<td>Monday-Friday</td>
+  							<td style="text-align:right;">10:30AM - 10:00PM</td>
+  						</tr>
+  						<tr>
+  							<td>Saturday</td>
+  							<td style="text-align:right;">11:00AM - 5:00PM</td>
+  						</tr>
+  						<tr>
+  							<td>Sunday</td>
+  							<td style="text-align:right;">11:00AM - 5:00PM</td>
+  						</tr>
+  					</table>
+  				</div>
+          <div class="row">
+              <div class="col-md-12">
+                  <p class="copyright">Copyright &copy; Team Froyoyo 2017</p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <!-- /footer -->
     <!-- /.container -->
 
     <!-- jQuery -->

@@ -17,3 +17,6 @@ table{
 .graybg{
 	background-color:lightgray;
 }
+.imgbg{
+	background-image: url("images/jason.jpg");
+}
