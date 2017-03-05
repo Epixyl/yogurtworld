@@ -16,8 +16,8 @@
 .col-md-4.img-portfolio{
   border-style: dashed;
 }
-@media(max-width: @screen-md){
+/*@media(max-width: @screen-md){
   .img-responsive.img-hover{
     float:left;
   }
-}
+}*/
