@@ -82,7 +82,7 @@
 				<table>
 					<tr>
 						<td>Mar 15</td>
-						<td>UCSD Bureaucracy Club</td>
+						<td>Sun God Archery</td>
 					</tr>
 					<tr>
 						<td>Mar 18</td>
@@ -90,7 +90,7 @@
 					</tr>
 					<tr>
 						<td>Mar 24</td>
-						<td>UCSD Another Club</td>
+						<td>Triton Gaming</td>
 					</tr>
 				</table>
 				</center>
@@ -105,12 +105,12 @@
 	</div>
 	<div class="container">
 	<div class="col-sm-4 centered">
-		<img class="img-responsive" src="images/jason.jpg">
+		<img class="img-responsive" src="images/store1.jpg">
 		<h2>Step 1: </h2>
 		<p>Contact us at (858) 452-8889 to schedule a meeting.</p>
 	</div>
 	<div class="col-sm-4 centered">
-		<img class="img-responsive" src="images/jason.jpg">
+		<img class="img-responsive" src="images/store2.jpg">
 		<h2>Step 2: </h2>
 		<p>Come in store to arrange the details for the fundraiser.</p>
 	</div>
