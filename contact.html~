@@ -34,13 +34,18 @@
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <div class="pull-left navbar-menu-text">
+                    MENU
+                  </div>
+                  <div class="pull-right">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                </button>
+                  </div>
+              </button>
                 <a class="navbar-brand" href="index.html">Yogurt World</a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -61,6 +66,7 @@
                 </ul>
             </div> -->
         </div>
+        <!-- /.container -->
     </nav>
     <!-- End Navigation -->
 
@@ -127,19 +133,38 @@
 		          <b> Located at the Student Services Center <br> Across from the Loft! <br> </b>
                     9500 Gilman Drive<br>San Diego, CA 92093<br> </p>
                 <p><i class="fa fa-phone"></i> 
-                    <abbr title="Phone">P</abbr>: (858) 452-8889</p>
+                    <abbr title="Phone">Phone</abbr>: (858) 452-8889</p>
                 <p><i class="fa fa-envelope-o"></i> 
                     <abbr title="Email">E-Mail</abbr>: <a href="mailto:name@example.com">name@example.com</a></p>
 		        <table style = "width:100%">
                     <tr valign = "top">
-				        <th rowspan="2"><p><i class="fa fa-clock-o"></i> <abbr title="Hours"><span style="font-weight:normal;">Hours:</span></abbr> </th> </p> </th>
+				        <th rowspan="2"><i class="fa fa-clock-o"></i> 
+                            <abbr title="Hours"> <span style="font-weight:normal;">Hours:</span> </abbr> </th> 
+
 				            <td> Monday - Friday: 10:30 AM to 10:00 PM </td> </tr>
 			         <tr>
 				            <td> Saturday - Sunday: 11:00 AM to 5:00 PM </td></tr> 
 		        </table>
+
+                <table style = "width:100%">
+                    <tr valign = "top">
+                        <th rowspan="5"><i class="fa fa-car"></i> 
+                            <abbr title="Hours"> <span style="font-weight:normal;">Parking:</span> </abbr> </th> 
+
+                            <td> Free ~ Weekend ~ Parking!</td> </tr>
+                     <tr>
+                            <td> Park at Gilman Parking Structure! </td></tr> 
+                     <tr>
+                            <td> <a href="https://goo.gl/maps/4NLmkvnPWHR2">3100 Gilman Dr, La Jolla, CA 92093</a> </td></tr>
+                     <tr>
+                            <td> For parking info check out:</td></tr>
+                     <tr>
+                            <td> <a href="https://transportation.ucsd.edu/parking/visitor/index.html#Pay-Stations">UCSD Transportation Services.</a> </td></tr>
+                </table>
                 
                 
-        </div>
+            </div>
+            </div>
         <!-- /.row -->
         <br>
 
@@ -159,13 +184,14 @@
 
 
     </div>
+	</div>
         <!-- Footer -->
         <!-- Footer -->
     <div class="footer">
       <div class="container">
         <div class="col-md-4">
             <h2><a href="index.html">Yogurt World</a></h2>
-                    <p>Located at the Student Services Center across from the Loft<br>
+                    <p>Located at the Student Services Center Across from the Loft<br>
               9500 Gilman Drive<br>
               La Jolla, CA 92093<br>
               (858) 452-8889
