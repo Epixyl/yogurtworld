@@ -14,7 +14,7 @@ body {
     background-color: #fff;
 }
 .redbg{
-	background-color:#D15043; 
+	background-color:#D15043;
 	color:white;
 }
 .redbg-front{
@@ -41,8 +41,9 @@ body {
 }
 
 .page-header1 {
-  font-family: "Sacramento", Helvetica, Arial, sans-serif;
-  font-size: 32px;
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 22px;
   padding-bottom: 9px;
   margin: 40px 0 20px 50px;
 }
