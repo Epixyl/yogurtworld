@@ -13,11 +13,31 @@ body {
     color: #333;
     background-color: #fff;
 }
-
+.redbg{
+	background-color:#D15043; 
+	color:white;
+}
+.redbg-front{
+	background: linear-gradient(to left bottom, #FFFFFF 50%, #D15043 50%);
+	height: 50px;
+}
+.redbg-back{
+	background: linear-gradient(to right bottom, #D15043 50%, #FFFFFF 50%);
+	height: 50px;
+}
+.shadow {
+	  -webkit-box-shadow: 0 6px 6px -6px black;
+	    -moz-box-shadow: 0 6px 6px -6px black;
+		  box-shadow: 0 6px 6px -6px black;
+}
 .navbar-menu-text {
   color: white;
   padding-right: 6px;
   vertical-align: middle;
+}
+.fullwidthcontainer{
+	padding-left:0px;
+	padding-right:0px;
 }
 
 .page-header1 {

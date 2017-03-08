@@ -13,12 +13,42 @@ body {
     color: #333;
     background-color: #fff;
 }
+.redbg{
+	background-color:#D15043; 
+	color:white;
+}
+.redbg-front{
+	background: linear-gradient(to left bottom, #FFFFFF 50%, #D15043 50%);
+	height: 50px;
+}
+.redbg-back{
+	background: linear-gradient(to right bottom, #D15043 50%, #FFFFFF 50%);
+	height: 50px;
+}
+.shadow {
+	  -webkit-box-shadow: 0 6px 4px -4px black;
+	    -moz-box-shadow: 0 6px 4px -4px black;
+		  box-shadow: 0 6px 4px -4px black;
+}
+.navbar-menu-text {
+  color: white;
+  padding-right: 6px;
+  vertical-align: middle;
+}
+.fullwidthcontainer{
+	padding-left:0px;
+	padding-right:0px;
+}
 
 .page-header1 {
   font-family: "Sacramento", Helvetica, Arial, sans-serif;
   font-size: 32px;
   padding-bottom: 9px;
   margin: 40px 0 20px 50px;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: white;
 }
 
 h1,h2,h3,h5,h6 {
@@ -52,12 +82,10 @@ h1,h2,h3,h5,h6 {
   color: green;
 }
 .navbar img{
-	padding-left:5px;
+	padding-left:10px;
 	height:100%;
 }
-.navbar-brand{
-	padding:2px;
-}
+
 .navbar b{
 	color:#EFC955;
 }
@@ -107,14 +135,12 @@ header.carousel .fill {
 
 
 th, td {
-    padding-right: 25px;
-    color: white;
-    text-align: left;
+
 }
 /* Footer Styles */
 .footer{
 	margin-top:10px;
-	padding-bottom:10px;
+	padding-bottom:15px;
 	color:white;
 	background-color:#D15043;
 }
@@ -127,7 +153,7 @@ th, td {
 	font-weight:600;
 }
 .footer p{
-	font-size:20px;
+	font-size:18px;
 }
 .footer table{
 	width:100%;
@@ -135,7 +161,7 @@ th, td {
 	margin:0px;
 }
 .footer th, .footer td{
-	font-size:20px;
+	font-size:18px;
 	padding:0px;
 }
 .footer img{
@@ -147,6 +173,11 @@ th, td {
   margin-top: 0px;
   width: 300px;
   margin: auto;
+}
+.footer .copyright {
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
 }
 
 /* Responsive Styles */
