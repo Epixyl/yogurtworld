@@ -76,33 +76,6 @@
     <div class="container">
 		<div class="row">
 			<h1 class="page-header">
-				Upcoming Fundraisers
-			</h1>
-		</div>
-	</div>
-	<div class="imgbg">
-		<div class="row">
-				<center>
-				<table>
-					<tr>
-						<td>Mar 15</td>
-						<td>Sun God Archery</td>
-					</tr>
-					<tr>
-						<td>Mar 18</td>
-						<td>UCSD Runescape Club</td>
-					</tr>
-					<tr>
-						<td>Mar 24</td>
-						<td>Triton Gaming</td>
-					</tr>
-				</table>
-				</center>
-		</div>
-	</div>
-    <div class="container">
-		<div class="row">
-			<h1 class="page-header">
 				Host Your Own Fundraiser!
 			</h1>
 		</div>
