@@ -14,6 +14,10 @@ body {
     background-color: #fff;
 }
 
+table th {
+  padding-bottom: 10px;
+}
+
 .redbg{
 	background-color:#D15043;
 	color:white;
