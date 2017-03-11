@@ -126,13 +126,55 @@
           <br>
 
             </div>
+
+
             <!-- Contact Details Column -->
             <div class="col-md-4">
                 <h3>Contact Details</h3>
                 <p>
 		          <b> Located at the Student Services Center <br> Across from the Loft! <br> </b>
                     9500 Gilman Drive<br>La Jolla, CA 92093<br> </p>
-                <p><i class="fa fa-phone"></i> 
+                
+                <table style = "width:100%" cellpadding="10">
+
+                    <tr valign = "top">
+                        <th rowspan="1"><i class="fa fa-phone"></i> 
+                            <abbr title="Phone"> <span style="font-weight:normal;">Phone:</span> </abbr> </th> 
+                            <td> (858) 452-8889 </td> </tr>
+                    
+                    <tr valign = "top">
+                        <th rowspan="1"><i class="fa fa-envelope-o"></i> 
+                            <abbr title="E-mail"> <span style="font-weight:normal;">E-mail:</span> </abbr> </th> 
+                            <td> <a href="mailto:name@example.com">name@example.com</a></p> </td> </tr>  
+
+
+                    <tr valign = "top">
+                        <th rowspan="2"><i class="fa fa-clock-o"></i> 
+                            <abbr title="Hours"> <span style="font-weight:normal;">Hours:</span> </abbr> </th> 
+
+                            <td> Monday - Friday: 10:30 AM to 10:00 PM </td> </tr>
+                     <tr>
+                            <td> Saturday - Sunday: 11:00 AM to 5:00 PM </td></tr> 
+
+
+
+                    <tr valign = "top">
+                        <th rowspan="5"><i class="fa fa-car"></i> 
+                            <abbr title="Hours"> <span style="font-weight:normal;">Parking:</span> </abbr> </th> 
+
+                            <td> Free ~ Weekend ~ Parking!</td> </tr>
+                     <tr>
+                            <td> Park at Gilman Parking Structure! </td></tr> 
+                     <tr>
+                            <td> <a href="https://goo.gl/maps/4NLmkvnPWHR2">3100 Gilman Dr, La Jolla, CA 92093</a> </td></tr>
+                     <tr>
+                            <td> For parking info check out:</td></tr>
+                     <tr>
+                            <td> <a href="https://transportation.ucsd.edu/parking/visitor/index.html#Pay-Stations">UCSD Transportation Services.</a> </td></tr>
+
+                </table>
+
+               <!-- <p><i class="fa fa-phone"></i> 
                     <abbr title="Phone">Phone</abbr>: (858) 452-8889</p>
                 <p><i class="fa fa-envelope-o"></i> 
                     <abbr title="Email">E-Mail</abbr>: <a href="mailto:name@example.com">name@example.com</a></p>
@@ -160,13 +202,13 @@
                             <td> For parking info check out:</td></tr>
                      <tr>
                             <td> <a href="https://transportation.ucsd.edu/parking/visitor/index.html#Pay-Stations">UCSD Transportation Services.</a> </td></tr>
-                </table>
+                </table> -->
                 
                 
-            </div>
+            
             </div>
         <!-- /.row -->
-        <br>
+        
 
         <!-- Contact Form -->
         <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
@@ -174,19 +216,18 @@
                 
                 
                 <div class='embed-container maps'>
-                    <iframe style="pointer-events: none;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.717108782957!2d-117.2381861494179!3d32.87920348084778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc06d869a3c4bd%3A0xc515057f38229ada!2sYogurt+World+UCSD!5e0!3m2!1sen!2sus!4v1488672816688" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen scrolling="no" margin="25%"></iframe>
-                   
-                </div>
-                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-                    <script>
-                        $('.maps').click(function () {
-                            $('.maps iframe').css("pointer-events", "auto");
-                        });
+                    <iframe style="pointer-events: none;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.717108782957!2d-117.2381861494179!3d32.87920348084778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc06d869a3c4bd%3A0xc515057f38229ada!2sYogurt+World+UCSD!5e0!3m2!1sen!2sus!4v1488672816688" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen scrolling="no" margin="25%"></iframe></div>
+                
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+                <script>
+                    $('.maps').click(function () {
+                          $('.maps iframe').css("pointer-events", "auto");
+                    });
 
-                        $( ".maps" ).mouseleave(function() {
-                            $('.maps iframe').css("pointer-events", "none"); 
-                        });
-                    </script>
+                    $( ".maps" ).mouseleave(function() {
+                         $('.maps iframe').css("pointer-events", "none"); 
+                     });
+                </script>
 
                     
                     
