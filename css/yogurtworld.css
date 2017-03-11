@@ -15,8 +15,14 @@ body {
 }
 
 table th {
-  padding-bottom: 10px;
+  padding-bottom: 12px;
 }
+
+table td { 
+  padding-left: 8px;
+  padding-bottom: 5px;
+}
+
 
 .redbg{
 	background-color:#D15043;
