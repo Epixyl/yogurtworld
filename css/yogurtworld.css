@@ -41,6 +41,13 @@ table td {
 	  -webkit-box-shadow: 0 6px 6px -6px black;
 	    -moz-box-shadow: 0 6px 6px -6px black;
 		  box-shadow: 0 6px 6px -6px black;
+      
+}
+.img-responsive-flav{
+
+    -webkit-box-shadow: 0 6px 6px -6px black;
+      -moz-box-shadow: 0 6px 6px -6px black;
+      box-shadow: 0 6px 6px -6px black;
       border-radius: 50%;
 }
 .shadow {
