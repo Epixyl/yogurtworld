@@ -15,6 +15,15 @@
 }
 .img-responsive{
   border-radius: 50%;
+  height:auto;
+  width: auto;
+  max-width: 60%;
+  max-height: 60%;
+  margin: auto;
+}
+.row{
+  max-width: 70%;
+  margin: auto;
 }
 /*@media(max-width: @screen-md){
   .img-responsive.img-hover{
