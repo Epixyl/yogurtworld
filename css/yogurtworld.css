@@ -35,11 +35,11 @@ table td {
 	color:white;
 }
 .redbg-front{
-	background: linear-gradient(to left bottom, #FFFFFF 50%, #D15043 50%);
+	background: linear-gradient(to left bottom, #FFFFFF 49%, #D15043 51%);
 	height: 50px;
 }
 .redbg-back{
-	background: linear-gradient(to right bottom, #D15043 50%, #FFFFFF 50%);
+	background: linear-gradient(to right bottom, #D15043 49%, #FFFFFF 51%);
 	height: 50px;
 }
 .img-responsive{

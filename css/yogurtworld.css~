@@ -13,18 +13,43 @@ body {
     color: #333;
     background-color: #fff;
 }
+
+
+
+table th {
+  padding-bottom: 12px;
+}
+
+table td { 
+  padding-left: 8px;
+  padding-bottom: 5px;
+}
+
+.maps{
+
+
+}
+
 .redbg{
 	background-color:#D15043;
 	color:white;
 }
 .redbg-front{
-	background: linear-gradient(to left bottom, #FFFFFF 50%, #D15043 50%);
+	background: linear-gradient(to left bottom, #FFFFFF 49%, #D15043 51%);
 	height: 50px;
 }
 .redbg-back{
 	background: linear-gradient(to right bottom, #D15043 50%, #FFFFFF 50%);
 	height: 50px;
 }
+.img-responsive{
+
+	  -webkit-box-shadow: 0 6px 6px -6px black;
+	    -moz-box-shadow: 0 6px 6px -6px black;
+		  box-shadow: 0 6px 6px -6px black;
+      
+}
+
 .shadow {
 	  -webkit-box-shadow: 0 6px 6px -6px black;
 	    -moz-box-shadow: 0 6px 6px -6px black;
@@ -60,6 +85,7 @@ h1,h2,h3,h5,h6 {
 .img-portfolio {
     margin-bottom: 5px;
     margin-top: 20px;
+
 }
 
 .img-hover:hover {
