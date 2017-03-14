@@ -76,10 +76,13 @@ table td {
 }
 
 .flavors{
-  max-width: 70%;
+  max-width: 80%;
   margin: auto;
 }
-
+.contact{
+  max-width: 80%;
+  margin: auto;
+}
 .img-flavor{
   border-radius: 50%;
   height:auto;
