@@ -29,7 +29,9 @@ table td {
 
 
 }
-
+.warningicon{
+  width:15%;
+}
 .redbg{
 	background-color:#D15043;
 	color:white;

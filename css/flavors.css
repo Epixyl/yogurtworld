@@ -17,9 +17,16 @@
   border-radius: 50%;
   height:auto;
   width: auto;
-  max-width: 60%;
+  max-width: 85%;
   max-height: 60%;
   margin: auto;
+}
+.img-portfolio img{
+	padding-left:2px;
+	padding-right:2px;
+}
+.warningicon{
+
 }
 .row{
   max-width: 70%;
