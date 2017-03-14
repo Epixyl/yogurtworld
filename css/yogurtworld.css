@@ -20,7 +20,7 @@ table th {
   padding-bottom: 12px;
 }
 
-table td { 
+table td {
   padding-left: 8px;
   padding-bottom: 5px;
 }
@@ -47,7 +47,7 @@ table td {
 	  -webkit-box-shadow: 0 6px 6px -6px black;
 	    -moz-box-shadow: 0 6px 6px -6px black;
 		  box-shadow: 0 6px 6px -6px black;
-      
+
 }
 
 .shadow {
@@ -73,6 +73,19 @@ table td {
   margin: 40px 0 20px 50px;
 }
 
+.row{
+  max-width: 70%;
+  margin: auto;
+}
+
+.img-flavor{
+  border-radius: 50%;
+  height:auto;
+  width: auto;
+  max-width: 60%;
+  max-height: 60%;
+  margin: auto;
+}
 .navbar-inverse .navbar-toggle {
     border-color: white;
 }
