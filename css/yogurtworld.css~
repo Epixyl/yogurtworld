@@ -14,7 +14,9 @@ body {
     background-color: #fff;
 }
 
-
+b {
+  font-weight: 500;
+}
 
 table th {
   padding-bottom: 12px;
@@ -24,22 +26,47 @@ table td {
   padding-left: 8px;
   padding-bottom: 5px;
 }
-
+a:link{
+    color:#000;
+}
+a:hover{
+    color:#000;
+}
+a:visited{
+  color:#000;
+}
+a:active{
+  color:#000;
+}
+a i.fa{
+  font-size: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.panel p{
+  color:black;
+}
 .maps{
 
 
 }
-
+.warningicon{
+  width:15%;
+}
 .redbg{
 	background-color:#D15043;
+  padding-top:50px;
+  padding-bottom:50px;
 	color:white;
 }
 .redbg-front{
 	background: linear-gradient(to left bottom, #FFFFFF 49%, #D15043 51%);
+  margin-top: 50px;
 	height: 50px;
 }
 .redbg-back{
 	background: linear-gradient(to right bottom, #D15043 49%, #FFFFFF 51%);
+    margin-bottom: 50px;
 	height: 50px;
 }
 .img-responsive{
@@ -74,16 +101,21 @@ table td {
 }
 
 .flavors{
-  max-width: 70%;
+  max-width: 80%;
+  margin: auto;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.contact{
+  max-width: 80%;
   margin: auto;
 }
-
 .img-flavor{
   border-radius: 50%;
   height:auto;
   width: auto;
-  max-width: 85%;
-  max-height: 60%;
+  max-width: 80%;
+  max-height: 80%;
   margin: auto;
 }
 .navbar-inverse .navbar-toggle {
@@ -208,10 +240,7 @@ th, td {
 	height:100%;
 }
 .row-button {
-  margin-bottom: 20px;
-  padding-top: 0px;
-  margin-top: 0px;
-  width: 300px;
+  max-width: 500px;
   margin: auto;
 }
 .footer .copyright {
