@@ -65,7 +65,7 @@
                         </ul>
                     </li> -->
                 </ul>
-            </div> 
+            </div>
         </div>
         <!-- /.container -->
     </nav>
@@ -75,8 +75,9 @@
 
         <!-- Page Heading/Breadcrumbs -->
         <div class="row">
-            <div class="col-lg-12">
-                <h2 class="page-header">Today's Flavors</h2>
+            <div class="col-lg-12 text-center">
+                <h1 class="page-header">Today's Flavors</h1>
+                <h4>Flavors rotate daily. Check back later if there's a flavor you crave!</h4>
             </div>
         </div>
         <!-- /.row -->
@@ -84,286 +85,29 @@
         <!-- Projects Row -->
         <div class="row">
             <div class="col-sm-6 img-portfolio">
-                <h3>Plain Tart</h3>
-                <h3>Matcha Green Tea</h3>
-                <h3>Thai Tea</h3>
-                <h3>Sweet Azuki</h3>
-                <h3>Watermelon</h3>
+                <h3><a href="#plaintart">Plain Tart</a></h3>
+                <h3><a href="#matchagreentea">Matcha Green Tea</a></h3>
+                <h3><a href="#thaitea">Thai Tea</a></h3>
+                <h3><a href="#sweetazuki">Sweet Azuki</a></h3>
+                <h3><a href="#watermelon">Watermelon</a></h3>
             </div>
             <div class="col-sm-6 img-portfolio">
-                <h3>Hawaiian Pineapple</h3>
-                <h3>Cookies & Cream</h3>
-                <h3>California Strawberry</h3>
-                <h3>Hazelnut Gelato</h3>
-                <h3>Black Sesame</h3>
+                <h3><a href="#hawaiianpineapple">Hawaiian Pineapple</a></h3>
+                <h3><a href="#cookiesncream">Cookies & Cream</a></h3>
+                <h3><a href="#californiastrawberry">California Strawberry</a></h3>
+                <h3><a href="#hazelnutgelato">Hazelnut Gelato</a></h3>
+                <h3><a href="#blacksesame">Black Sesame</a></h3>
             </div>
         </div>
         <!-- /.row -->
+        <br/>
 	</div>
-	<br/>
-	<div class="redbg-front"></div>
-	<div class="redbg container-fluid">
-        <!-- Projects Row -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h1 style="text-align:center;">Our Flavors</h1>
-				<h4 style="text-align:center;">Flavors rotate daily. Check back later if there's a flavor you crave!</h4>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4 img-portfolio text-center">
-                <img class="img-responsive" src="images/thaiswirlSQ.jpg" alt="">
-                <h3 id="thaitea">Thai Tea</h3>
-				<img src="images/glutenfree.png" alt="">
-				<img src="images/lowfat.png" alt="">
-            </div>
-            <div class="col-md-4 img-portfolio">
-                <img class="img-responsive" src="images/matchaswirlSQ.jpg" alt="">
-                <h3>Jasmine Milk Tea</h3>
-				<img src="images/glutenfree.png" alt="">
-				<img src="images/lowfat.png" alt="">
-            </div>
-            <div class="col-md-4 img-portfolio">
-                <img class="img-responsive" src="images/matchaswirlSQ.jpg" alt="">
-                <h3 id="matchagreentea">Matcha Green Tea</h3>
-				<img src="images/glutenfree.png" alt="">
-				<img src="images/lactosefree.png" alt="">
-				<img src="images/lowfat.png" alt="">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4 img-portfolio">
-                <img class="img-responsive" src="images/matchaswirlSQ.jpg" alt="">
-                <h3 id="sweerazuki">Sweet Azuki</h3>
-                <p><img src="images/lowfat.jpg" alt=""> Low Fat</p>
-                <p><img src="images/sugarfree.png" alt=""> Lactose Free</p>
-                <p><img src="images/glutenfree.png" alt=""> Gluten Free</p>
-
-            </div>
-            <div class="col-md-4 img-portfolio">
-                <img class="img-responsive" src="images/plainswirlSQ.jpg" alt="">
-                <h3 id="blacksesame">Black Sesame</h3>
-                <p><img src="images/lowfat.jpg" alt=""> Low Fat</p>
-                <p><img src="images/sugarfree.png" alt=""> Lactose Free</p>
-                <p><img src="images/glutenfree.png" alt=""> Gluten Free</p>
-            </div>
-            <div class="col-md-4 img-portfolio">
-                <img class="img-responsive" src="images/taroswirlSQ.jpg" alt="">
-                <h3>Taro</h3>
-                <p><img src="images/sugarfree.png" alt=""> Lactose Free</p>
-                <p><img src="images/glutenfree.png" alt=""> Gluten Free</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4 img-portfolio">
-                <img class="img-responsive" src="images/thaiswirlSQ.jpg" alt="">
-                <h3>Vanilla Custard</h3>
-                <p><img src="images/glutenfree.png" alt=""> Gluten Free</p>
-                <p><img src="images/sugarfree.png" alt=""> Reduced Fat</p>
-                <p><img src="images/glutenfree.png" alt=""> Contains Egg</p>
-            </div>
-            <div class="col-md-4 img-portfolio">
-                <img class="img-responsive" src="images/plainswirlSQ.jpg" alt="">
-                <h3>Chocolate Custard</h3>
-                <p><img src="images/glutenfree.png" alt=""> Gluten Free</p>
-                <p><img src="images/sugarfree.png" alt=""> Reduced Fat</p>
-                <p><img src="images/glutenfree.png" alt=""> Contains Egg</p>
-            </div>
-            <div class="col-md-4 img-portfolio">
-                <img class="img-responsive" src="images/matchaswirlSQ.jpg" alt="">
-                <h3 id="californiastrawberry">California Strawberry</h3>
-                <p><img src="images/lowfat.jpg" alt=""> Low Fat</p>
-                <p><img src="images/glutenfree.png" alt=""> Gluten Free</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4 img-portfolio">
-                <img class="img-responsive" src="images/thaiswirlSQ.jpg" alt="">
-                <h3 id="hawaiianpineapple">Hawaiian Pineapple</h3>
-                <p><img src="images/glutenfree.png" alt=""> Gluten Free</p>
-                <p><img src="images/dairyfree.png" alt=""> Diary Free</p>
-                <p><img src="images/glutenfree.png" alt=""> Non Fat</p>
-                <p><img src="images/glutenfree.png" alt=""> Sorbet</p>
-                <p><img src="images/vegan.png" alt=""> Vegan</p>
-
-            </div>
-            <div class="col-md-4 img-portfolio">
-                <img class="img-responsive" src="images/matchaswirlSQ.jpg" alt="">
-                <h3 id="cookiesncream">Cookies n Cream</h3>
-                <p><img src="images/sugarfree.png" alt=""> Lactose Free</p>
-                <p><img src="images/lowfat.jpg" alt=""> Low Fat</p>
-            </div>
-            <div class="col-md-4 img-portfolio">
-                <img class="img-responsive" src="images/matchaswirlSQ.jpg" alt="">
-                <h3 id= "plaintart">Plain Tart</h3>
-                <p><img src="images/lowfat.jpg" alt=""> Low Fat</p>
-                <p><img src="images/glutenfree.png" alt=""> Gluten Free</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4 img-portfolio">
-                <img class="img-responsive" src="images/thaiswirlSQ.jpg" alt="">
-                <h3>Toffee Coffee</h3>
-                <p><img src="images/glutenfree.png" alt=""> Gluten Free</p>
-                <p><img src="images/glutenfree.png" alt=""> Non Fat</p>
-                <p><img src="images/sugarfree.png" alt=""> Sugar Free</p>
-            </div>
-            <div class="col-md-4 img-portfolio">
-                <img class="img-responsive" src="images/matchaswirlSQ.jpg" alt="">
-                <h3>Cheesecake</h3>
-                <p><img src="images/glutenfree.png" alt=""> Gluten Free</p>
-                <p><img src="images/glutenfree.png" alt=""> Non Fat</p>
-                <p><img src="images/sugarfree.png" alt=""> Sugar Free</p>
-            </div>
-            <div class="col-md-4 img-portfolio">
-                <img class="img-responsive" src="images/matchaswirlSQ.jpg" alt="">
-                <h3>Strawberry Banana</h3>
-                <p><img src="images/glutenfree.png" alt=""> Gluten Free</p>
-                <p><img src="images/glutenfree.png" alt=""> Non Fat</p>
-                <p><img src="images/sugarfree.png" alt=""> Sugar Free</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4 img-portfolio">
-                <img class="img-responsive" src="images/thaiswirlSQ.jpg" alt="">
-                <h3>Pistachio Gelato</h3>
-                <p><img src="images/glutenfree.png" alt=""> Gluten Free</p>
-                <p><img src="images/glutenfree.png" alt=""> Reduced Fat</p>
-            </div>
-            <div class="col-md-4 img-portfolio">
-                <img class="img-responsive" src="images/plainswirlSQ.jpg" alt="">
-                <h3>Belgian Cookie Gelato</h3>
-                <p><img src="images/glutenfree.png" alt=""> Reduced Fat</p>
-            </div>
-            <div class="col-md-4 img-portfolio">
-                <img class="img-responsive" src="images/matchaswirlSQ.jpg" alt="">
-                <h3 id="hazelnuntgelato">Hazelnut Gelato</h3>
-                <p><img src="images/glutenfree.png" alt=""> Gluten Free</p>
-                <p><img src="images/glutenfree.png" alt=""> Reduced Fat</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4 img-portfolio">
-                <img class="img-responsive" src="images/thaiswirlSQ.jpg" alt="">
-                <h3>Cake Batter Gelato</h3>
-                <p><img src="images/glutenfree.png" alt=""> Contain Egg</p>
-                <p><img src="images/glutenfree.png" alt=""> Reduced Fat</p>
-
-            </div>
-            <div class="col-md-4 img-portfolio">
-                <img class="img-responsive" src="images/matchaswirlSQ.jpg" alt="">
-                <h3>Peanut Butter Gelato</h3>
-                <p><img src="images/glutenfree.png" alt=""> Gluten Free</p>
-                <p><img src="images/glutenfree.png" alt=""> Reduced Fat</p>
-            </div>
-            <div class="col-md-4 img-portfolio">
-                <img class="img-responsive" src="images/matchaswirlSQ.jpg" alt="">
-                <h3>Oozy Goozy Cinnamon Bun</h3>
-                <p><img src="images/lowfat.jpg" alt=""> Low Fat</p>
-                <p><img src="images/glutenfree.png" alt=""> Gluten Free</p>
-                <p><img src="images/glutenfree.png" alt=""> Contain Egg</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4 img-portfolio">
-                <img class="img-responsive" src="images/thaiswirlSQ.jpg" alt="">
-                <h3 id="watermelon">Watermelon</h3>
-                <p><img src="images/dairyfree.png" alt=""> Dairy Free</p>
-                <p><img src="images/glutenfree.png" alt=""> Non Fat</p>
-                <p><img src="images/glutenfree.png" alt=""> Gluten Free</p>
-                <p><img src="images/glutenfree.png" alt=""> Sorbet</p>
-                <p><img src="images/vegan.png" alt=""> Vegan</p>
-            </div>
-            <div class="col-md-4 img-portfolio">
-                <img class="img-responsive" src="images/matchaswirlSQ.jpg" alt="">
-                <h3>Pomegranate Raspberry</h3>
-                <p><img src="images/dairyfree.png" alt=""> Dairy Free</p>
-                <p><img src="images/glutenfree.png" alt=""> Non Fat</p>
-                <p><img src="images/glutenfree.png" alt=""> Gluten Free</p>
-                <p><img src="images/glutenfree.png" alt=""> Sorbet</p>
-                <p><img src="images/vegan.png" alt=""> Vegan</p>
-            </div>
-            <div class="col-md-4 img-portfolio">
-                <img class="img-responsive" src="images/matchaswirlSQ.jpg" alt="">
-                <h3>Strawberry Lemonade</h3>
-                <p><img src="images/dairyfree.png" alt=""> Dairy Free</p>
-                <p><img src="images/glutenfree.png" alt=""> Non Fat</p>
-                <p><img src="images/glutenfree.png" alt=""> Gluten Free</p>
-                <p><img src="images/glutenfree.png" alt=""> Sorbet</p>
-                <p><img src="images/vegan.png" alt=""> Vegan</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4 img-portfolio">
-                <img class="img-responsive" src="images/thaiswirlSQ.jpg" alt="">
-                <h3>Pink Lemonade</h3>
-                <p><img src="images/dairyfree.png" alt=""> Dairy Free</p>
-                <p><img src="images/glutenfree.png" alt=""> Non Fat</p>
-                <p><img src="images/glutenfree.png" alt=""> Gluten Free</p>
-                <p><img src="images/glutenfree.png" alt=""> Sorbet</p>
-                <p><img src="images/vegan.png" alt=""> Vegan</p>
-            </div>
-            <div class="col-md-4 img-portfolio">
-                <img class="img-responsive" src="images/matchaswirlSQ.jpg" alt="">
-                <h3>Frozen Lemonade</h3>
-                <p><img src="images/dairyfree.png" alt=""> Dairy Free</p>
-                <p><img src="images/glutenfree.png" alt=""> Non Fat</p>
-                <p><img src="images/glutenfree.png" alt=""> Gluten Free</p>
-                <p><img src="images/glutenfree.png" alt=""> Sorbet</p>
-                <p><img src="images/vegan.png" alt=""> Vegan</p>
-            </div>
-            <div class="col-md-4 img-portfolio">
-                <img class="img-responsive" src="images/matchaswirlSQ.jpg" alt="">
-                <h3>Cucumber Lime</h3>
-                <p><img src="images/dairyfree.png" alt=""> Dairy Free</p>
-                <p><img src="images/glutenfree.png" alt=""> Non Fat</p>
-                <p><img src="images/glutenfree.png" alt=""> Gluten Free</p>
-                <p><img src="images/glutenfree.png" alt=""> Sorbet</p>
-                <p><img src="images/vegan.png" alt=""> Vegan</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4 img-portfolio">
-                <img class="img-responsive" src="images/thaiswirlSQ.jpg" alt="">
-                <h3>Pomegranate Berry Tart </h3>
-                <p><img src="images/glutenfree.png" alt=""> Gluten Free</p>
-                <p><img src="images/glutenfree.png" alt=""> Non Fat</p>
-            </div>
-            <div class="col-md-4 img-portfolio">
-                <img class="img-responsive" src="images/matchaswirlSQ.jpg" alt="">
-                <h3>Mountain Blackberry</h3>
-                <p><img src="images/glutenfree.png" alt=""> Gluten Free</p>
-                <p><img src="images/glutenfree.png" alt=""> Non Fat</p>
-            </div>
-            <div class="col-md-4 img-portfolio">
-                <img class="img-responsive" src="images/matchaswirlSQ.jpg" alt="">
-                <h3>Honeydew</h3>
-                <p><img src="images/lowfat.jpg" alt=""> Low Fat</p>
-                <p><img src="images/glutenfree.png" alt=""> Gluten Free</p>
-
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4 img-portfolio">
-                <img class="img-responsive" src="images/thaiswirlSQ.jpg" alt="">
-                <h3>Coconut</h3>
-                <p><img src="images/lowfat.jpg" alt=""> Low Fat</p>
-                <p><img src="images/glutenfree.png" alt=""> Gluten Free</p>
-            </div>
-            <div class="col-md-4 img-portfolio">
-                <img class="img-responsive" src="images/matchaswirlSQ.jpg" alt="">
-                <h3>Salted Caramel Pretzel</h3>
-                <p><img src="images/lowfat.jpg" alt=""> Low Fat</p>
-            </div>
-        </div>
-
-	</div>
-	<div class="redbg-back"></div>
-	<div class="container">
+  <div class="redbg-front"></div>
+  <div class="redbg">
         <!-- /.row -->
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h1 class="text-center">Our Toppings</h1>
+                <h1>Our Toppings</h1>
 				<h4>We have over 75 toppings to select from! Click below to browse our wide selection.</h4>
 				<br>
             </div>
@@ -547,22 +291,280 @@
 				</div>
 			</div>
         </div>
-        <hr>
         </div>
     <!-- /.container -->
+	<div class="redbg-back"></div>
+	<div class=" container-fluid">
+        <!-- Projects Row -->
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h1 class="page-header">Our Flavors</h1>
+				<h4>Flavors rotate daily. Check back later if there's a flavor you crave!</h4>
+        <br/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 img-portfolio text-center text-center">
+                <img id="thaitea" class="img-responsive" src="images/thaiswirlSQ.jpg" alt="">
+                <h3>Thai Tea</h3>
+				<img class="warningicon" src="images/glutenfree.png" alt="">
+				<img class="warningicon" src="images/lowfat.png" alt="">
+            </div>
+            <div class="col-md-4 img-portfolio text-center">
+                <img id="jasminemilktea"class="img-responsive" src="images/matchaswirlSQ.jpg" alt="">
+                <h3>Jasmine Milk Tea</h3>
+				<img class="warningicon" src="images/glutenfree.png" alt="">
+				<img class="warningicon" src="images/lowfat.png" alt="">
+            </div>
+            <div class="col-md-4 img-portfolio text-center">
+                <img id="sweetazuki" class="img-responsive" src="images/redswirlSQ.jpg" alt="">
+                <h3 >Sweet Azuki</h3>
+				<img class="warningicon" src="images/glutenfree.png" alt="">
+				<img class="warningicon" src="images/lactosefree.png" alt="">
 
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 img-portfolio text-center">
+                <img  id="matchagreentea" class="img-responsive" src="images/matchaswirlSQ.jpg" alt="">
+                <h3>Matcha Green Tea</h3>
+                <img class="warningicon" src="images/lactosefree.png" alt="">
+                <img class="warningicon" src="images/lowfat.png" alt="">
+
+
+            </div>
+            <div class="col-md-4 img-portfolio text-center">
+                <img id="blacksesame"class="img-responsive" src="images/blackswirlSQ.jpg" alt="">
+                <h3 >Black Sesame</h3>
+                <img class="warningicon" src="images/glutenfree.png" alt="">
+                <img class="warningicon" src="images/lactosefree.png" alt="">
+                <img class="warningicon" src="images/lowfat.png" alt="">
+
+            </div>
+            <div class="col-md-4 img-portfolio text-center">
+                <img id="taro" class="img-responsive" src="images/taroswirlSQ.jpg" alt="">
+                <h3>Taro</h3>
+                <img class="warningicon" src="images/glutenfree.png" alt="">
+                <img class="warningicon" src="images/lactosefree.png" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 img-portfolio text-center">
+                <img id="vanillacustard" class="img-responsive" src="images/thaiswirlSQ.jpg" alt="">
+                <h3>Vanilla Custard</h3>
+                <img class="warningicon" src="images/egg.png" alt="">
+                <img class="warningicon" src="images/glutenfree.png" alt="">
+                <img class="warningicon" src="images/reducedfat.png" alt="">
+            </div>
+            <div class="col-md-4 img-portfolio text-center">
+                <img id="chocolatecustard" class="img-responsive" src="images/darkbrownswirlSQ.jpg" alt="">
+                <h3>Chocolate Custard</h3>
+                <img class="warningicon" src="images/egg.png" alt="">
+                <img class="warningicon" src="images/glutenfree.png" alt="">
+                <img class="warningicon" src="images/reducedfat.png" alt="">
+            </div>
+            <div class="col-md-4 img-portfolio text-center">
+                <img id="californiastrawberry" class="img-responsive" src="images/strawberrySQ.jpg" alt="">
+                <h3 >California Strawberry</h3>
+                <img class="warningicon" src="images/glutenfree.png" alt="">
+                <img class="warningicon" src="images/lowfat.png" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 img-portfolio text-center">
+                <img id="hawaiianpineapple" class="img-responsive" src="images/yellowswirlSQ.jpg" alt="">
+                <h3 >Hawaiian Pineapple</h3>
+                <img class="warningicon" src="images/dairyfree.png" alt="">
+                <img class="warningicon" src="images/glutenfree.png" alt="">
+                <img class="warningicon" src="images/nonfat.png" alt="">
+                <img class="warningicon" src="images/sorbet.png" alt="">
+                <img class="warningicon" src="images/vegan.png" alt="">
+
+            </div>
+            <div class="col-md-4 img-portfolio text-center">
+                <img  id="cookiesncream" class="img-responsive" src="images/brownswirlSQ.jpg" alt="">
+                <h3>Cookies n Cream</h3>
+                <img class="warningicon" src="images/lactosefree.png" alt="">
+                <img class="warningicon" src="images/lowfat.png" alt="">
+            </div>
+            <div class="col-md-4 img-portfolio text-center">
+                <img  id= "plaintart" class="img-responsive" src="images/plainswirlSQ.jpg" alt="">
+                <h3>Plain Tart</h3>
+                <img class="warningicon" src="images/glutenfree.png" alt="">
+                <img class="warningicon" src="images/lowfat.png" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 img-portfolio text-center">
+                <img id="toffeecoffee"class="img-responsive" src="images/brownswirlSQ.jpg" alt="">
+                <h3>Toffee Coffee</h3>
+                <img class="warningicon" src="images/glutenfree.png" alt="">
+                <img class="warningicon" src="images/nonfat.png" alt="">
+                <img class="warningicon" src="images/sugarfree.png" alt="">
+            </div>
+            <div class="col-md-4 img-portfolio text-center">
+                <img id="cheesecake" class="img-responsive" src="images/creamswirlSQ.jpg" alt="">
+                <h3>Cheesecake</h3>
+                <img class="warningicon" src="images/glutenfree.png" alt="">
+                <img class="warningicon" src="images/nonfat.png" alt="">
+                <img class="warningicon" src="images/sugarfree.png" alt="">
+            </div>
+            <div class="col-md-4 img-portfolio text-center">
+                <img id="strawberrybanana" class="img-responsive" src="images/strawberrySQ.jpg" alt="">
+                <h3>Strawberry Banana</h3>
+                <img class="warningicon" src="images/glutenfree.png" alt="">
+                <img class="warningicon" src="images/nonfat.png" alt="">
+                <img class="warningicon" src="images/sugarfree.png" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 img-portfolio text-center">
+                <img id="pistachiogelato" class="img-responsive" src="images/lightgreenswirlSQ.jpg" alt="">
+                <h3>Pistachio Gelato</h3>
+                <img class="warningicon" src="images/glutenfree.png" alt="">
+                <img class="warningicon" src="images/reducedfat.png" alt="">
+            </div>
+            <div class="col-md-4 img-portfolio text-center">
+                <img id="belgiancookiegelato" class="img-responsive" src="images/darkbrownswirlSQ.jpg" alt="">
+                <h3>Belgian Cookie Gelato</h3>
+                <img class="warningicon" src="images/reducedfat.png" alt="">
+            </div>
+            <div class="col-md-4 img-portfolio text-center">
+                <img id="hazelnutgelato" class="img-responsive" src="images/brownswirlSQ.jpg" alt="">
+                <h3 >Hazelnut Gelato</h3>
+                <img class="warningicon" src="images/glutenfree.png" alt="">
+                <img class="warningicon" src="images/reducedfat.png" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 img-portfolio text-center">
+                <img id="cakebattergelato" class="img-responsive" src="images/creamswirlSQ.jpg" alt="">
+                <h3>Cake Batter Gelato</h3>
+                <img class="warningicon" src="images/egg.png" alt="">
+                <img class="warningicon" src="images/reducedfat.png" alt="">
+
+            </div>
+            <div class="col-md-4 img-portfolio text-center">
+                <img id="peanutbuttergelato" class="img-responsive" src="images/brownswirlSQ.jpg" alt="">
+                <h3>Peanut Butter Gelato</h3>
+                <img class="warningicon" src="images/glutenfree.png" alt="">
+                <img class="warningicon" src="images/reducedfat.png" alt="">
+            </div>
+            <div class="col-md-4 img-portfolio text-center">
+                <img id="ooeygooeycinnamonbun" class="img-responsive" src="images/darkbrownswirlSQ.jpg" alt="">
+                <h3>Ooey Gooey Cinnamon Bun</h3>
+                <img class="warningicon" src="images/egg.png" alt="">
+                <img class="warningicon" src="images/glutenfree.png" alt="">
+                <img class="warningicon" src="images/lowfat.png" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 img-portfolio text-center">
+                <img id="watermelon" class="img-responsive" src="images/watermelonswirlSQ.jpg" alt="">
+                <h3 >Watermelon</h3>
+                <img class="warningicon" src="images/dairyfree.png" alt="">
+                <img class="warningicon" src="images/glutenfree.png" alt="">
+                <img class="warningicon" src="images/nonfat.png" alt="">
+                <img class="warningicon" src="images/sorbet.png" alt="">
+                <img class="warningicon" src="images/vegan.png" alt="">
+            </div>
+            <div class="col-md-4 img-portfolio text-center">
+                <img id="pomegranateraspberry" class="img-responsive" src="images/strawberrySQ.jpg" alt="">
+                <h3>Pomegranate Raspberry</h3>
+                <img class="warningicon" src="images/dairyfree.png" alt="">
+                <img class="warningicon" src="images/glutenfree.png" alt="">
+                <img class="warningicon" src="images/nonfat.png" alt="">
+                <img class="warningicon" src="images/sorbet.png" alt="">
+                <img class="warningicon" src="images/vegan.png" alt="">
+            </div>
+            <div class="col-md-4 img-portfolio text-center">
+                <img id="strawberrylemonade" class="img-responsive" src="images/pinkswirlSQ.jpg" alt="">
+                <h3>Strawberry Lemonade</h3>
+                <img class="warningicon" src="images/dairyfree.png" alt="">
+                <img class="warningicon" src="images/glutenfree.png" alt="">
+                <img class="warningicon" src="images/nonfat.png" alt="">
+                <img class="warningicon" src="images/sorbet.png" alt="">
+                <img class="warningicon" src="images/vegan.png" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 img-portfolio text-center">
+                <img id="pinklemonade" class="img-responsive" src="images/peachswirlSQ.jpg" alt="">
+                <h3>Pink Lemonade</h3>
+                <img class="warningicon" src="images/dairyfree.png" alt="">
+                <img class="warningicon" src="images/glutenfree.png" alt="">
+                <img class="warningicon" src="images/nonfat.png" alt="">
+                <img class="warningicon" src="images/sorbet.png" alt="">
+                <img class="warningicon" src="images/vegan.png" alt="">
+            </div>
+            <div class="col-md-4 img-portfolio text-center">
+                <img id="frozenlemonade" class="img-responsive" src="images/yellowswirlSQ.jpg" alt="">
+                <h3>Frozen Lemonade</h3>
+                <img class="warningicon" src="images/dairyfree.png" alt="">
+                <img class="warningicon" src="images/glutenfree.png" alt="">
+                <img class="warningicon" src="images/nonfat.png" alt="">
+                <img class="warningicon" src="images/sorbet.png" alt="">
+                <img class="warningicon" src="images/vegan.png" alt="">
+            </div>
+            <div class="col-md-4 img-portfolio text-center">
+                <img id="cucumberlime" class="img-responsive" src="images/lightgreenswirlSQ.jpg" alt="">
+                <h3>Cucumber Lime</h3>
+                <img class="warningicon" src="images/dairyfree.png" alt="">
+                <img class="warningicon" src="images/glutenfree.png" alt="">
+                <img class="warningicon" src="images/nonfat.png" alt="">
+                <img class="warningicon" src="images/sorbet.png" alt="">
+                <img class="warningicon" src="images/vegan.png" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 img-portfolio text-center">
+                <img id="pomegranateberrytart" class="img-responsive" src="images/strawberrySQ.jpg" alt="">
+                <h3>Pomegranate Berry Tart </h3>
+                <img class="warningicon" src="images/glutenfree.png" alt="">
+                <img class="warningicon" src="images/nonfat.png" alt="">
+            </div>
+            <div class="col-md-4 img-portfolio text-center">
+                <img id="mountainblackberry" class="img-responsive" src="images/blackberryswirlSQ.jpg" alt="">
+                <h3>Mountain Blackberry</h3>
+                <img class="warningicon" src="images/glutenfree.png" alt="">
+                <img class="warningicon" src="images/nonfat.png" alt="">
+            </div>
+            <div class="col-md-4 img-portfolio text-center">
+                <img id="honeydew" class="img-responsive" src="images/lightgreenswirlSQ.jpg" alt="">
+                <h3>Honeydew</h3>
+                <img class="warningicon" src="images/glutenfree.png" alt="">
+                <img class="warningicon" src="images/lowfat.png" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 img-portfolio text-center">
+                <img id="coconut" class="img-responsive" src="images/creamswirlSQ.jpg" alt="">
+                <h3>Coconut</h3>
+                <img class="warningicon" src="images/glutenfree.png" alt="">
+                <img class="warningicon" src="images/lowfat.png" alt="">
+            </div>
+            <div class="col-md-4 img-portfolio text-center">
+                <img id="saltedcaramelpretzel" class="img-responsive" src="images/brownswirlSQ.jpg" alt="">
+                <h3>Salted Caramel Pretzel</h3>
+                <img class="warningicon" src="images/lowfat.png" alt="">
+            </div>
+        </div>
+
+	</div>
+<br/>
     <!-- Footer -->
     <div class="footer">
       <div class="container">
+
         <div class="col-md-4">
             <h2><a href="index.html">Yogurt World</a></h2>
-  					<p>Located at the Student Services Center Across from the Loft<br>
+  					<p><b>Located at the Student Services Center Across from the Loft</b><br>
               9500 Gilman Drive<br>
               La Jolla, CA 92093<br>
               (858) 452-8889
   					</p>
-            </div>
-            <div class="col-md-5">
+          </div>
+          <div class="col-md-5">
               <h2>Store Hours</h2>
   					<table>
   						<tr>
@@ -579,6 +581,13 @@
   						</tr>
   					</table>
   				</div>
+          <div class="col-md-3">
+              <h2><a href="contact.html">Contact Us</a></h2>
+    					<a href="https://www.facebook.com/pages/Yogurt-World-Ucsd/135064886536194" target="_blank"><i class="fa fa-facebook"></i></a>
+              <a href="https://www.yelp.com/biz/yogurt-world-la-jolla-2" target="_blank"><i class="fa fa-yelp"></i></a>
+              <a href="mailto:yogurtworlducsd@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+            </div>
+<br/>
           <div class="row">
               <div class="col-md-12">
                   <p class="copyright">Copyright &copy; Team Froyoyo 2017</p>
@@ -586,6 +595,7 @@
           </div>
         </div>
       </div>
+
       <!-- /footer -->
 
     <!-- jQuery -->
@@ -593,7 +603,7 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-
+    <script></script>
 </body>
 
 </html>

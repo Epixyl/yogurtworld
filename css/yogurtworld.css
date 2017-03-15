@@ -49,9 +49,7 @@ a i.fa{
 
 
 }
-.warningicon{
-  width:15%;
-}
+
 .redbg{
 	background-color:#D15043;
   padding-top:50px;
@@ -105,8 +103,10 @@ a i.fa{
   text-align: center;
   padding-bottom: 5%;
 }
-
-.warningicon {
+.warningicon{
+  width:15%;
+}
+.warningicon1 {
   width: 70px;
   padding: 5px;
   display: inline-block;
