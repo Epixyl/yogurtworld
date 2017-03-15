@@ -26,10 +26,13 @@ table td {
   padding-left: 8px;
   padding-bottom: 5px;
 }
-i.fa{
+a i.fa{
   font-size: 30px;
   padding-left: 10px;
   padding-right: 10px;
+}
+.panel p{
+  color:black;
 }
 .maps{
 
@@ -40,14 +43,18 @@ i.fa{
 }
 .redbg{
 	background-color:#D15043;
+  padding-top:50px;
+  padding-bottom:50px;
 	color:white;
 }
 .redbg-front{
 	background: linear-gradient(to left bottom, #FFFFFF 49%, #D15043 51%);
+  margin-top: 50px;
 	height: 50px;
 }
 .redbg-back{
 	background: linear-gradient(to right bottom, #D15043 49%, #FFFFFF 51%);
+    margin-bottom: 50px;
 	height: 50px;
 }
 .img-responsive{
