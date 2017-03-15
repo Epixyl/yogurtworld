@@ -26,6 +26,18 @@ table td {
   padding-left: 8px;
   padding-bottom: 5px;
 }
+a:link{
+    color:#000;
+}
+a:hover{
+    color:#000;
+}
+a:visited{
+  color:#000;
+}
+a:active{
+  color:#000;
+}
 a i.fa{
   font-size: 30px;
   padding-left: 10px;
