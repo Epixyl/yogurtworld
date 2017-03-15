@@ -7,7 +7,7 @@
   background-size: ;
   -o-background-size: ;
   background-position: center;
-  background-image: url('../images/fruits1.jpeg');
+  background-image: url('../images/fruits1.jpg');
   text-align: center;
   color: white;
 }
@@ -116,4 +116,5 @@ header .header-content .header-content-inner p {
 p {
   padding-top: 3%;
   padding-bottom: 7%;
+  font-size: 18px;
 }
