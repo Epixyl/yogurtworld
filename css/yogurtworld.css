@@ -80,6 +80,8 @@ table td {
 .flavors{
   max-width: 80%;
   margin: auto;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 .contact{
   max-width: 80%;
