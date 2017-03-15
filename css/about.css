@@ -113,7 +113,7 @@ header .header-content .header-content-inner p {
   }
 }
 
-p {
+p.about {
   padding-top: 3%;
   padding-bottom: 7%;
   font-size: 18px;
