@@ -12,11 +12,16 @@ td, th{
 }
 table{
 	font-size:32px;
-	font-size:4vmin;	
+	font-size:4vmin;
 }
 .graybg{
 	background-color:lightgray;
 }
 .imgbg{
 	background-image: url("images/jason.jpg");
+}
+
+.fundraiserimg {
+	padding-top: 20px;
+	padding-bottom: 25px;
 }
