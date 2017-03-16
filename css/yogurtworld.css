@@ -138,6 +138,10 @@ a i.fa{
   padding-top: 2%;
   padding-bottom: 2%;
 }
+.flavors1{
+  max-width: 80%;
+  margin: auto;
+}
 .steps{
   max-width: 80%;
   margin: 0px auto;
