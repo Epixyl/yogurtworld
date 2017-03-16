@@ -103,6 +103,14 @@ a i.fa{
   border-bottom: 2px solid #eee;
 }
 
+.page-header2 {
+  padding-bottom: 10px;
+  padding-top:20px;
+  text-align: center;
+  margin: 0px 0 20px;
+  border-bottom: 2px solid #eee;
+}
+
 .icons {
   text-align: center;
   padding-bottom: 5%;
@@ -129,6 +137,10 @@ a i.fa{
   margin: auto;
   padding-top: 2%;
   padding-bottom: 2%;
+}
+.flavors1{
+  max-width: 80%;
+  margin: auto;
 }
 .steps{
   max-width: 80%;
