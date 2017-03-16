@@ -343,8 +343,6 @@
 				<img class="warningicon lactosefree" src="images/lactosefree.png" alt="">
 
             </div>
-        </div>
-        <div class="row">
             <div class="col-md-4 img-portfolio text-center">
                 <img  id="matchagreentea" class="img-responsive" src="images/matchaswirlSQ.jpg" alt="">
                 <h3>Matcha Green Tea</h3>
@@ -367,8 +365,6 @@
                 <img class="warningicon glutenfree" src="images/glutenfree.png" alt="">
                 <img class="warningicon lactosefree" src="images/lactosefree.png" alt="">
             </div>
-        </div>
-        <div class="row">
             <div class="col-md-4 img-portfolio text-center">
                 <img id="vanillacustard" class="img-responsive" src="images/creamswirlSQ.jpg" alt="">
                 <h3>Vanilla Custard</h3>
@@ -389,8 +385,6 @@
                 <img class="warningicon glutenfree" src="images/glutenfree.png" alt="">
                 <img class="warningicon lowfat" src="images/lowfat.png" alt="">
             </div>
-        </div>
-        <div class="row">
             <div class="col-md-4 img-portfolio text-center">
                 <img id="hawaiianpineapple" class="img-responsive" src="images/yellowswirlSQ.jpg" alt="">
                 <h3 >Hawaiian Pineapple</h3>
@@ -413,8 +407,6 @@
                 <img class="warningicon glutenfree" src="images/glutenfree.png" alt="">
                 <img class="warningicon lowfat" src="images/lowfat.png" alt="">
             </div>
-        </div>
-        <div class="row">
             <div class="col-md-4 img-portfolio text-center">
                 <img id="toffeecoffee"class="img-responsive" src="images/brownswirlSQ.jpg" alt="">
                 <h3>Toffee Coffee</h3>
@@ -436,8 +428,6 @@
                 <img class="warningicon nonfat" src="images/nonfat.png" alt="">
                 <img class="warningicon sugarfree" src="images/sugarfree.png" alt="">
             </div>
-        </div>
-        <div class="row">
             <div class="col-md-4 img-portfolio text-center">
                 <img id="pistachiogelato" class="img-responsive" src="images/lightgreenswirlSQ.jpg" alt="">
                 <h3>Pistachio Gelato</h3>
@@ -455,8 +445,6 @@
                 <img class="warningicon glutenfree" src="images/glutenfree.png" alt="">
                 <img class="warningicon reducedfat" src="images/reducedfat.png" alt="">
             </div>
-        </div>
-        <div class="row">
             <div class="col-md-4 img-portfolio text-center">
                 <img id="cakebattergelato" class="img-responsive" src="images/creamswirlSQ.jpg" alt="">
                 <h3>Cake Batter Gelato</h3>
@@ -477,8 +465,6 @@
                 <img class="warningicon glutenfree" src="images/glutenfree.png" alt="">
                 <img class="warningicon lowfat" src="images/lowfat.png" alt="">
             </div>
-        </div>
-        <div class="row">
             <div class="col-md-4 img-portfolio text-center">
                 <img id="watermelon" class="img-responsive" src="images/watermelonswirlSQ.jpg" alt="">
                 <h3 >Watermelon</h3>
@@ -506,8 +492,6 @@
                 <img class="warningicon sorbet" src="images/sorbet.png" alt="">
                 <img class="warningicon vegan" src="images/vegan.png" alt="">
             </div>
-        </div>
-        <div class="row">
             <div class="col-md-4 img-portfolio text-center">
                 <img id="pinklemonade" class="img-responsive" src="images/peachswirlSQ.jpg" alt="">
                 <h3>Pink Lemonade</h3>
@@ -535,8 +519,6 @@
                 <img class="warningicon sorbet" src="images/sorbet.png" alt="">
                 <img class="warningicon vegan" src="images/vegan.png" alt="">
             </div>
-        </div>
-        <div class="row">
             <div class="col-md-4 img-portfolio text-center">
                 <img id="pomegranateberrytart" class="img-responsive" src="images/strawberrySQ.jpg" alt="">
                 <h3>Pomegranate Berry Tart </h3>
@@ -555,8 +537,6 @@
                 <img class="warningicon glutenfree" src="images/glutenfree.png" alt="">
                 <img class="warningicon lowfat" src="images/lowfat.png" alt="">
             </div>
-        </div>
-        <div class="row">
             <div class="col-md-4 img-portfolio text-center">
                 <img id="coconut" class="img-responsive" src="images/creamswirlSQ.jpg" alt="">
                 <h3>Coconut</h3>
@@ -625,114 +605,50 @@
     <script src="js/bootstrap.min.js"></script>
     <script>
     var reset = function(){
-        $('.warningicon').closest('.col-md-4').show();
-        $('.warningicon').closest('.col-md-4').css({opacity:1});
+      $('.warningicon').closest('.col-md-4').show();
     }
     var showglutenfree = function(){
-      var isMobile = window.matchMedia("only screen and (max-width:760px)");
-      if(isMobile.matches){
-        $('.warningicon').closest('.col-md-4').hide();
-        $('.glutenfree').closest('.col-md-4').show();
-      } else {
-        $('.warningicon').closest('.col-md-4').css({opacity:0.1});
-        $('.glutenfree').closest('.col-md-4').css({opacity:1});
-      }
+      $('.warningicon').closest('.col-md-4').hide();
+      $('.glutenfree').closest('.col-md-4').show();
     };
     var showdairyfree = function(){
-      var isMobile = window.matchMedia("only screen and (max-width:760px)");
-      if(isMobile.matches){
-        $('.warningicon').closest('.col-md-4').hide();
-        $('.dairyfree').closest('.col-md-4').show();
-      } else {
-        $('.warningicon').closest('.col-md-4').css({opacity:0.1});
-        $('.dairyfree').closest('.col-md-4').css({opacity:1});
-      }
+      $('.warningicon').closest('.col-md-4').hide();
+      $('.dairyfree').closest('.col-md-4').show();
     };
     var showegg = function(){
-      var isMobile = window.matchMedia("only screen and (max-width:760px)");
-      if(isMobile.matches){
-        $('.warningicon').closest('.col-md-4').hide();
-        $('.egg').closest('.col-md-4').show();
-      } else {
-        $('.warningicon').closest('.col-md-4').css({opacity:0.1});
-        $('.egg').closest('.col-md-4').css({opacity:1});
-      }
+      $('.warningicon').closest('.col-md-4').hide();
+      $('.egg').closest('.col-md-4').show();
     };
     var showlactosefree = function(){
-      var isMobile = window.matchMedia("only screen and (max-width:760px)");
-      if(isMobile.matches){
-        $('.warningicon').closest('.col-md-4').hide();
-        $('.lactosefree').closest('.col-md-4').show();
-      } else {
-        $('.warningicon').closest('.col-md-4').css({opacity:0.1});
-        $('.lactosefree').closest('.col-md-4').css({opacity:1});
-      }
+      $('.warningicon').closest('.col-md-4').hide();
+      $('.lactosefree').closest('.col-md-4').show();
     };
     var showlowfat = function(){
-      var isMobile = window.matchMedia("only screen and (max-width:760px)");
-      if(isMobile.matches){
-        $('.warningicon').closest('.col-md-4').hide();
-        $('.lowfat').closest('.col-md-4').show();
-        $('.nonfat').closest('.col-md-4').show();
-      } else {
-        $('.warningicon').closest('.col-md-4').css({opacity:0.1});
-        $('.lowfat').closest('.col-md-4').css({opacity:1});
-        $('.nonfat').closest('.col-md-4').css({opacity:1});
-      }
+      $('.warningicon').closest('.col-md-4').hide();
+      $('.lowfat').closest('.col-md-4').show();
+      $('.nonfat').closest('.col-md-4').show();
     };
     var shownonfat = function(){
-      var isMobile = window.matchMedia("only screen and (max-width:760px)");
-      if(isMobile.matches){
-        $('.warningicon').closest('.col-md-4').hide();
-        $('.nonfat').closest('.col-md-4').show();
-      } else {
-        $('.warningicon').closest('.col-md-4').css({opacity:0.1});
-        $('.nonfat').closest('.col-md-4').css({opacity:1});
-      }
+      $('.warningicon').closest('.col-md-4').hide();
+      $('.nonfat').closest('.col-md-4').show();
     };
     var showreducedfat = function(){
-      var isMobile = window.matchMedia("only screen and (max-width:760px)");
-      if(isMobile.matches){
-        $('.warningicon').closest('.col-md-4').hide();
-        $('.reducedfat').closest('.col-md-4').show();
-        $('.lowfat').closest('.col-md-4').show();
-        $('.nonfat').closest('.col-md-4').show();
-      } else {
-        $('.warningicon').closest('.col-md-4').css({opacity:0.1});
-        $('.reducedfat').closest('.col-md-4').css({opacity:1});
-        $('.lowfat').closest('.col-md-4').css({opacity:1});
-        $('.nonfat').closest('.col-md-4').css({opacity:1});
-      }
+      $('.warningicon').closest('.col-md-4').hide();
+      $('.reducedfat').closest('.col-md-4').show();
+      $('.lowfat').closest('.col-md-4').show();
+      $('.nonfat').closest('.col-md-4').show();
     };
     var showsorbet = function(){
-      var isMobile = window.matchMedia("only screen and (max-width:760px)");
-      if(isMobile.matches){
-        $('.warningicon').closest('.col-md-4').hide();
-        $('.sorbet').closest('.col-md-4').show();
-      } else {
-        $('.warningicon').closest('.col-md-4').css({opacity:0.1});
-        $('.sorbet').closest('.col-md-4').css({opacity:1});
-      }
+      $('.warningicon').closest('.col-md-4').hide();
+      $('.sorbet').closest('.col-md-4').show();
     };
     var showsugarfree = function(){
-      var isMobile = window.matchMedia("only screen and (max-width:760px)");
-      if(isMobile.matches){
-        $('.warningicon').closest('.col-md-4').hide();
-        $('.sugarfree').closest('.col-md-4').show();
-      } else {
-        $('.warningicon').closest('.col-md-4').css({opacity:0.1});
-        $('.sugarfree').closest('.col-md-4').css({opacity:1});
-      }
+      $('.warningicon').closest('.col-md-4').hide();
+      $('.sugarfree').closest('.col-md-4').show();
     };
     var showvegan = function(){
-      var isMobile = window.matchMedia("only screen and (max-width:760px)");
-      if(isMobile.matches){
-        $('.warningicon').closest('.col-md-4').hide();
-        $('.vegan').closest('.col-md-4').show();
-      } else {
-        $('.warningicon').closest('.col-md-4').css({opacity:0.1});
-        $('.vegan').closest('.col-md-4').css({opacity:1});
-      }
+      $('.warningicon').closest('.col-md-4').hide();
+      $('.vegan').closest('.col-md-4').show();
     };
     </script>
 </body>
