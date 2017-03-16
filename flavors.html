@@ -625,50 +625,57 @@
     <script src="js/bootstrap.min.js"></script>
     <script>
     var reset = function(){
-      $('.warningicon').closest('.col-md-4').show();
+        $('.warningicon').closest('.col-md-4').show();
+        $('.warningicon').closest('.col-md-4').css({opacity:1});
     }
     var showglutenfree = function(){
-      $('.warningicon').closest('.col-md-4').hide();
-      $('.glutenfree').closest('.col-md-4').show();
+      var isMobile = window.matchMedia("only screen and (max-width:760px)");
+      if(isMobile.matches){
+        $('.warningicon').closest('.col-md-4').hide();
+        $('.glutenfree').closest('.col-md-4').show();
+      } else {
+        $('.warningicon').closest('.col-md-4').css({opacity:0.1});
+        $('.glutenfree').closest('.col-md-4').css({opacity:1});
+      }
     };
     var showdairyfree = function(){
-      $('.warningicon').closest('.col-md-4').hide();
-      $('.dairyfree').closest('.col-md-4').show();
+      $('.warningicon').closest('.col-md-4').css({opacity:0.1});
+      $('.dairyfree').closest('.col-md-4').css({opacity:1});
     };
     var showegg = function(){
-      $('.warningicon').closest('.col-md-4').hide();
-      $('.egg').closest('.col-md-4').show();
+      $('.warningicon').closest('.col-md-4').css({opacity:0.1});
+      $('.egg').closest('.col-md-4').css({opacity:1});
     };
     var showlactosefree = function(){
-      $('.warningicon').closest('.col-md-4').hide();
-      $('.lactosefree').closest('.col-md-4').show();
+      $('.warningicon').closest('.col-md-4').css({opacity:0.1});
+      $('.lactosefree').closest('.col-md-4').css({opacity:1});
     };
     var showlowfat = function(){
-      $('.warningicon').closest('.col-md-4').hide();
-      $('.lowfat').closest('.col-md-4').show();
-      $('.nonfat').closest('.col-md-4').show();
+      $('.warningicon').closest('.col-md-4').css({opacity:0.1});
+      $('.lowfat').closest('.col-md-4').css({opacity:1});
+      $('.nonfat').closest('.col-md-4').css({opacity:1});
     };
     var shownonfat = function(){
-      $('.warningicon').closest('.col-md-4').hide();
-      $('.nonfat').closest('.col-md-4').show();
+      $('.warningicon').closest('.col-md-4').css({opacity:0.1});
+      $('.nonfat').closest('.col-md-4').css({opacity:1});
     };
     var showreducedfat = function(){
-      $('.warningicon').closest('.col-md-4').hide();
-      $('.reducedfat').closest('.col-md-4').show();
-      $('.lowfat').closest('.col-md-4').show();
-      $('.nonfat').closest('.col-md-4').show();
+      $('.warningicon').closest('.col-md-4').css({opacity:0.1});
+      $('.reducedfat').closest('.col-md-4').css({opacity:1});
+      $('.lowfat').closest('.col-md-4').css({opacity:1});
+      $('.nonfat').closest('.col-md-4').css({opacity:1});
     };
     var showsorbet = function(){
-      $('.warningicon').closest('.col-md-4').hide();
-      $('.sorbet').closest('.col-md-4').show();
+      $('.warningicon').closest('.col-md-4').css({opacity:0.1});
+      $('.sorbet').closest('.col-md-4').css({opacity:1});
     };
     var showsugarfree = function(){
-      $('.warningicon').closest('.col-md-4').hide();
-      $('.sugarfree').closest('.col-md-4').show();
+      $('.warningicon').closest('.col-md-4').css({opacity:0.1});
+      $('.sugarfree').closest('.col-md-4').css({opacity:1});
     };
     var showvegan = function(){
-      $('.warningicon').closest('.col-md-4').hide();
-      $('.vegan').closest('.col-md-4').show();
+      $('.warningicon').closest('.col-md-4').css({opacity:0.1});
+      $('.vegan').closest('.col-md-4').css({opacity:1});
     };
     </script>
 </body>
