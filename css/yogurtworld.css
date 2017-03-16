@@ -160,13 +160,19 @@ h1,h2,h3,h5,h6 {
 .img-hover:hover {
     opacity: 0.8;
 }
-
+.pull-left.navbar-menu-text{
+    font-size:12px;
+    font-weight:800;
+}
 .navbar-inverse .navbar-brand {
   color: white;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
   background-color: #d26459;
+}
+.navbar-inverse .navbar-collapse{
+  border-color:#d26459;
 }
 .navbar-inverse {
   background-color: #D15043;
@@ -183,6 +189,11 @@ h1,h2,h3,h5,h6 {
 .navbar img{
 	padding-left:10px;
 	height:100%;
+}
+.navbar-toggle{
+  margin-top:6px;
+  margin-bottom:6px;
+
 }
 
 .navbar b{
