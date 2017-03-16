@@ -302,7 +302,13 @@ th, td {
   font-weight: 400;
   text-align: center;
 }
+@media(min-width:767px) {
+.flavortitle{
+  height:2em;
+  line-height:1em;
+}
 
+}
 /* Responsive Styles */
 
 @media(max-width:991px) {
