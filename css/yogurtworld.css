@@ -162,6 +162,11 @@ a i.fa{
     border-color: white;
 }
 
+.footertitle {
+  font-size: 22px;
+  font-weight: 400;
+}
+
 h1,h2,h3,h5,h6 {
   font-family: "Poppins", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
@@ -259,10 +264,6 @@ header.carousel .fill {
     font-style: italic;
 }
 
-
-th, td {
-
-}
 /* Footer Styles */
 .footer{
 	margin-top:10px;
@@ -287,8 +288,13 @@ th, td {
 	margin:0px;
 }
 .footer th, .footer td{
-	font-size:18px;
+	font-size: 16px;
+  font-weight: 400;
 	padding:0px;
+}
+.footer .footertext {
+  font-size: 16px;
+  font-weight: 400;
 }
 .footer img{
 	height:100%;
@@ -301,6 +307,7 @@ th, td {
   font-size: 12px;
   font-weight: 400;
   text-align: center;
+  padding-top: 10px;
 }
 
 /* Responsive Styles */
