@@ -302,7 +302,15 @@ header.carousel .fill {
 .row-button {
   max-width: 500px;
   margin: auto;
+  padding-top: 50px;
 }
+
+@media(max-width:991px) {
+    .row-button {
+      max-width: 350px;
+    }
+}
+
 .footer .copyright {
   font-size: 12px;
   font-weight: 400;
