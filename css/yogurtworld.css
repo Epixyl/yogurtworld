@@ -317,12 +317,9 @@ header.carousel .fill {
   text-align: center;
   padding-top: 20px;
 }
-@media(min-width:767px) {
 .flavortitle{
   height:2em;
   line-height:1em;
-}
-
 }
 /* Responsive Styles */
 
