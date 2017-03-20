@@ -20,7 +20,7 @@
   background-size: ;
   -o-background-size: ;
   background-position: center;
-  background-image: url('../images/flavors.jpg');
+  background-image: url('../images/flavors1.jpg');
   text-align: center;
   color: white;
 }
@@ -57,7 +57,6 @@ header .header-content {
   width: 100%;
 }
 header .header-content .header-content-inner h1 {
-  letter-spacing: 1.75px;
   font-size: 40px;
   margin-top: 0;
   margin-bottom: 0;

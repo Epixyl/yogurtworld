@@ -117,6 +117,7 @@ a i.fa{
 }
 .warningicon{
   width:15%;
+  height:15%;
 }
 .warningicon1 {
   width: 70px;
@@ -160,6 +161,11 @@ a i.fa{
 }
 .navbar-inverse .navbar-toggle {
     border-color: white;
+}
+
+.footertitle {
+  font-size: 22px;
+  font-weight: 400;
 }
 
 h1,h2,h3,h5,h6 {
@@ -259,10 +265,6 @@ header.carousel .fill {
     font-style: italic;
 }
 
-
-th, td {
-
-}
 /* Footer Styles */
 .footer{
 	margin-top:10px;
@@ -287,8 +289,13 @@ th, td {
 	margin:0px;
 }
 .footer th, .footer td{
-	font-size:18px;
+	font-size: 16px;
+  font-weight: 400;
 	padding:0px;
+}
+.footer .footertext {
+  font-size: 16px;
+  font-weight: 400;
 }
 .footer img{
 	height:100%;
@@ -296,15 +303,28 @@ th, td {
 .row-button {
   max-width: 500px;
   margin: auto;
+  padding-top: 50px;
 }
+
+@media(max-width:991px) {
+    .row-button {
+      max-width: 350px;
+    }
+}
+
 .footer .copyright {
   font-size: 12px;
   font-weight: 400;
   text-align: center;
+  padding-top: 20px;
 }
-
 /* Responsive Styles */
-
+@media(min-width:767px) {
+    .flavortitle{
+      height:2em;
+      line-height: 1em;
+    }
+}
 @media(max-width:991px) {
     .customer-img,
     .img-related {
