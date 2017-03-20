@@ -88,53 +88,15 @@
 
         <!-- Content Row -->
         <div class="row">
-            <!-- Map Column -->
-            <div class="col-lg-7">
-                <!-- Embedded Google Map -->
-
-                <h3>Send us a Message</h3>
-                <form name="sentMessage" id="contactForm" novalidate>
-                    <div class="control-group form-group">
-                        <div class="controls">
-                            <label>Name:</label>
-                            <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
-                            <p class="help-block"></p>
-                        </div>
-                    </div>
-               <!--     <div class="control-group form-group">
-                        <div class="controls">
-                            <label>Phone Number:</label>
-                            <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
-                        </div>
-                    </div> -->
-                     <div class="control-group form-group">
-                        <div class="controls">
-                            <label>Email Address:</label>
-                            <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
-                        </div>
-                    </div>
-                    <div class="control-group form-group">
-                        <div class="controls">
-                            <label>Message:</label>
-                            <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
-                        </div>
-                    </div>
-                    <div id="success"></div>
-                    <!-- For success/fail messages -->
-                    <button type="submit" class="btn btn-lg btn-default btn-block">Send Message</button>
-                </form><br>
-
-            </div>
-
-
+            
             <!-- Contact Details Column -->
             <div class="col-lg-5">
-                <h3>Contact Details</h3>
-                <p>
+                <h3 align="center">Contact Details</h3>
+                <p align="center">
 		          <b> Located at the Student Services Center <br> Across from the Loft! <br> </b>
                     9500 Gilman Drive<br>La Jolla, CA 92093<br> </p>
                 <br>
-                <table style = "width:100%" >
+                <table style = "width:100%" align="center" >
 
                     <tr valign = "top">
                         <th rowspan="1"><i class="fa fa-phone"></i>
@@ -172,12 +134,37 @@
                      <tr>
                             <td> <a href="https://transportation.ucsd.edu/parking/visitor/index.html#Pay-Stations"><font color="blue">UCSD Transportation Services.</font></a> </td></tr>
 
-                </table>
+                </table> <br></div>
+        <div class="col-lg-7">
 
-        <!-- /.row -->
-        <br>
-        <br>
-        </div></div>
+            <h3>Send us a Message</h3>
+            <form name="sentMessage" id="contactForm" novalidate>
+                <div class="control-group form-group">
+                    <div class="controls">
+                            <label>Name:</label>
+                            <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
+                            <p class="help-block"></p>
+                        </div>
+                    </div>
+                     <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Email Address:</label>
+                            <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
+                        </div>
+                    </div>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Message:</label>
+                            <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+                        </div>
+                    </div>
+                    <div id="success"></div>
+                    <!-- For success/fail messages -->
+                    <button type="submit" class="btn btn-lg btn-default btn-block">Send Message</button>
+                </form><br>
+
+            </div>
+        </div>
 
         <!-- Contact Form -->
         <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
